@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+}
+
+.background {
+    background-image: linear-gradient(to right, blue, red);
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+}
+
+/* Base de los círculos */
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(40px);
+    opacity: 0.9;
+}
+
+/* Círculo right */
+.blob-1 {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(135deg, #af6ae8, #1692f0);
+    top: -100px;
+    right: -150px;
+}
+
+/* Círculo left */
+.blob-2 {
+    width: 420px;
+    height: 420px;
+    background: linear-gradient(135deg, #d31e97, #a6221b);
+    top: 100px;
+    left: 80px;
+}
+
+/* Círculo bottom */
+.blob-3 {
+    width: 360px;
+    height: 360px;
+    background: linear-gradient(135deg, #d61818, #d9c36c);
+    bottom: 30px;
+    left: 50%;
+}
+
+.excuseBlock{
+    margin: 25vh 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+button:hover {
+	cursor: pointer;
+    background-image: linear-gradient(to right, red, blue);
+}
+
+button {
+	background-image: linear-gradient(to right, blue, red);
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-size: 2em;
+	font-style: normal;
+	border-width: 2px;
+    border-color: wheat;
+	border-radius: 50px;
+	width: 500px;
+    height: 100px;
+}
