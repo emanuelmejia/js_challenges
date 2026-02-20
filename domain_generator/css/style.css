@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.background {
+    background-image: linear-gradient(rgb(20, 21, 25), rgb(31, 30, 30), 
+   rgb(22, 22, 24),  rgb(18, 29, 56), rgb(5, 29, 97), rgb(27, 54, 128));
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+}
+
+/* Base de los círculos */
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(40px);
+    opacity: 0.9;
+}
+
+/* Círculo left */
+.blob-1 {
+    width: 420px;
+    height: 420px;
+    background: linear-gradient(135deg, #453b41, #ffffff);
+    top: -150px;
+    left: -30px;
+}
+
+/* Círculo bottom */
+.blob-2 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #2118d6, #09dbee);
+    bottom: 30px;
+    left: 50%;
+}
+
+.excuseBlock{
+    margin: 25vh 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2{
+    font-size: 3em;
+}
