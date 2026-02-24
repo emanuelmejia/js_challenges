@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Card Generator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="refresh centerText">
+      <button class="refresh centerText" onclick="window.location.reload()">
+        Shuffle
+      </button><br>
+      <span class="timerDisplay">Auto-Shuffle in</span>
+      <span class="timerDisplay" id="timer"></span>
+      <span class="timerDisplay">Seconds</span>
+    </div>
+    <div class="card">
+      <div class="cardSuit leftText">
+        <span class="suitImg"></span>
+      </div>
+      <div class="cardValue"><span id="generatedValue"></span></div>
+      <div class="cardSuit rightText">
+        <span class="suitImg"></span>
+      </div>
+    </div>
+
+    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
